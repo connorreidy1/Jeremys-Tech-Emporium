@@ -10,6 +10,7 @@ const harddriveSchema = new mongoose.Schema(
         intergace: {type: String, required: true},
         max_speed: {type: String, required: true},
         model_num: {type: String, required: true},
+        price: {type: Number, required: true}
     },
     {timestamps: true}
 )

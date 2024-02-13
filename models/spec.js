@@ -6,6 +6,7 @@ const specSchema = new mongoose.Schema(
         memory: {type: String, required: true},
         size_in_inches: {type: String, required: true},
         year: {type: String, required: true},
+        price: {type: Number, required: true},
         computerId: {type: mongoose.Schema.Types.ObjectId, ref: 'Computer'},
     },
     {timestamps: true}
