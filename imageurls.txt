@@ -7,3 +7,31 @@ Samsung: https://static.bhphoto.com/images/multiple_images/images500x500/1589845
 Sandisk: https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/sandisk_sdssde61_2t00_g25_2tb_extreme_portable_ssd_1603896615_1595432.jpg
 
 Western Digital: https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/wd_wdbu6y0050bbk_wesn_5tb_elements_portable_hd_1576236956_1527251.jpg
+
+
+
+Computers / Specs
+
+MacBook Pro 14"
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534640_sd.jpg;maxHeight=640;maxWidth=550
+
+MacBook Pro 16"
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534617_sd.jpg;maxHeight=640;maxWidth=550
+
+MacBook Air 13.6"
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509650_sd.jpg;maxHeight=640;maxWidth=550
+
+MacBook Air 15"
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534606_sd.jpg;maxHeight=640;maxWidth=550
+
+Surface Pro 13" #1
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560599cv11d.jpg;maxHeight=640;maxWidth=550
+
+Surafce Pro 13 #2
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517639_sd.jpg;maxHeight=640;maxWidth=550
+
+Aspire Intel 14"
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6551/6551127_sd.jpg;maxHeight=640;maxWidth=550
+
+Aspire Intel 15.6"
+https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6551/6551125_sd.jpg;maxHeight=640;maxWidth=550
