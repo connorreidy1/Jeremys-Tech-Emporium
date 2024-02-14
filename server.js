@@ -27,8 +27,19 @@ app.get('/', (req, res) => {
     res.send("Jeremy's Computer Emporium! Let's sell some hardware!")
 })
 
-app.get('/harddrive', harddriveController.getAllHardrives)
+// Get All Routes - All
+app.get('/harddrives', harddriveController.getAllHarddrives)
 
-app.get('/computer', computerController.getAllComputers)
+app.get('/computers', computerController.getAllComputers)
 
-app.get('/spec', specController.getAllSpecs)
+app.get('/specs', specController.getAllSpecs)
+
+
+// CRUD Routes - Hard Drives
+app.get('/harddrives/:id', harddriveController.getHarddriveById)
+
+app.post('/harddrives/', harddriveController.createHarddrive)
+
+app.put('/harddrives/:id', harddriveController.updateHarddrive)
+
+app.delete('/harddrives/:id', harddriveController.deleteHarddrive)
