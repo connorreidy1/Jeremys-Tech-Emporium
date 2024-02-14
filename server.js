@@ -24,5 +24,11 @@ app.listen(PORT, () => {
 
 
 app.get('/', (req, res) => {
-    res.send("Jeremy's Computer Emporium! Let's sell come hardware!")
-  })
+    res.send("Jeremy's Computer Emporium! Let's sell some hardware!")
+})
+
+app.get('/harddrive', harddriveController.getAllHardrives)
+
+app.get('/computer', computerController.getAllComputers)
+
+app.get('/spec', specController.getAllSpecs)

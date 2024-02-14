@@ -1,5 +1,5 @@
 const db = require('../db')
-const { Harddrive } = require('../models')
+const Harddrive = require('../models/harddrive')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
@@ -70,7 +70,7 @@ const main = async() => {
     console.log('Inserted harddrives')
 }
 
-const run = async() => {
+const run = async () => {
     await main()
     db.close()
 }
