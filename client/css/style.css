@@ -109,7 +109,7 @@
 #macbookpro-img, #macbookair-img, #surfacepro9-img, #aspireintel-img {
     background-color: #D1A7FB;
     width: 120px;
-    height: 100px;
+    /* height: 100px; */
     margin-left: 20px;
 }
 #macbookpro-name, #macbookair-name, #surfacepro9-name, #aspireintel-name {
@@ -123,4 +123,50 @@
 }
 #macbookpro-description, #macbookair-description, #surfacepro9-description, #aspireintel-description {
     font-size: 12px;
+}
+#items-container-specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#macBookPro-container-specs1, #macBookPro-container-specs2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#specs-image {
+    /* background-color: #D1A7FB;
+    width: 220px;
+    height: 150px; */
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#macbookpro-specs1-img {
+    width: 190px;
+}
+#macbookpro-specs2-img {
+    width: 220px;
+}
+#specs-description-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* width: 200px; */
+}
+#macbookpro-specs1-model, #macbookpro-specs1-year, #macbookpro-specs1-size, #macbookpro-specs1-chip, #macbookpro-specs1-memory, #macbookpro-specs1-price {
+    justify-content: center;
+    align-items: center;
+}
+#addToCart {
+    background-color: #FD96DA;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
 }
