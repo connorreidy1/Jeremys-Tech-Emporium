@@ -20,6 +20,8 @@
     font-style: normal;
 
     padding: 10px;
+    margin-bottom: 12px;
+    color: rgb(114, 114, 114);
 }
 
 #menu-container {
@@ -54,6 +56,7 @@
     color: white;
 }
 
+/* HOME PAGE */
 #items-container {
     display: flex;
     flex-direction: column;
@@ -77,13 +80,14 @@
 #computerImage, #harddriveImage {
     background-color: #D1A7FB;
     width: 180px;
-    height: 140px;
+    /* height: 140px; */
     margin: 20px;
 }
 #computer-text, #harddrive-text {
     font-size: 16;
 }
 
+/* COMPUTER PAGE */
 #macBookPro-container, #macBookAir-container, #surfacepro9-container, #aspireintel-container {
     /* background-color: #A4EFFF; */
     box-shadow: 
@@ -124,6 +128,8 @@
 #macbookpro-description, #macbookair-description, #surfacepro9-description, #aspireintel-description {
     font-size: 12px;
 }
+
+/* SPECS PAGE */
 #items-container-specs {
     display: flex;
     flex-direction: column;
@@ -169,4 +175,60 @@
     padding: 12px;
     border-radius: 12px;
     margin-top: 10px;
+}
+
+/* HARD DRIVE PAGE */
+#harddrive-items-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 350px;
+    box-shadow: 
+        4px 4px 5px rgb(226, 226, 226),
+        -2px 4px 5px rgb(226, 226, 226);
+}
+#harddrive-image {
+    /* width: 100px; */
+    margin-right: 10px;
+}
+#lacie1-container, #lacie2-container, #lacieSSD-container, #wd-container, #sandisk-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 20px;
+
+    /* box-shadow: 
+        4px 4px 5px rgb(226, 226, 226),
+        -2px 4px 5px rgb(226, 226, 226); */
+}
+#lacie1-img, #lacie2-img, #lacieSSD-img, #wd-img, #sandisk-img {
+    width: 100px;
+}
+#harddrive-description-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(114, 114, 114);
+}
+#lacie1-name, #lacie2-name, #lacieSSD-name, #wd-name, #sandisk-name {
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: black;
+}
+#lacie1-price, #lacie2-price, #lacieSSD-price, #wd-price, #sandisk-price {
+    font-size: 20px;
+    padding-top: 5px;
+    color: black;
+}
+#harddriveAddToCart {
+    background-color: #FD96DA;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
