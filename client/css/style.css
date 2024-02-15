@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    width: 150px;
+    padding-top: 10px;
+}
+#tagline-container {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 10px;
+}
+
+#menu-container {
+    background-image: linear-gradient(to right,#A4EFFF , #CCFBC0, #FFF6A4);;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#sales, #about, #blog {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#dropdown-container {
+    background-image: linear-gradient(to right,#D1A7FB , #FB998B, #FBC18B);;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+#items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#computer-container, #harddrive-container {
+    /* background-color: aqua; */
+    box-shadow: 
+        4px 4px 5px rgb(226, 226, 226),
+        -2px 4px 5px rgb(226, 226, 226);
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#computerImage, #harddriveImage {
+    background-color: #D1A7FB;
+    width: 180px;
+    height: 140px;
+    margin: 20px;
+}
+#computer-text, #harddrive-text {
+    font-size: 16;
+}
+
+#macBookPro-container, #macBookAir-container, #surfacepro9-container, #aspireintel-container {
+    /* background-color: #A4EFFF; */
+    box-shadow: 
+        4px 4px 5px rgb(226, 226, 226),
+        -2px 4px 5px rgb(226, 226, 226);
+    width: 350px;
+    height: 160px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#name-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+#macbookpro-img, #macbookair-img, #surfacepro9-img, #aspireintel-img {
+    background-color: #D1A7FB;
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+}
+#macbookpro-name, #macbookair-name, #surfacepro9-name, #aspireintel-name {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#macbookpro-brandname, #macbookair-brandname, #surfacepro9-brandname, #aspireintel-brandname {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+#macbookpro-description, #macbookair-description, #surfacepro9-description, #aspireintel-description {
+    font-size: 12px;
+}

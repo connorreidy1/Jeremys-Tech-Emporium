@@ -1,8 +1,11 @@
 console.log('working')
 
 const getData = async () => {
-    const responseComputer = await axios.get(`http://localhost:3001/computer`)
+    const responseComputer = await axios.get(`http://localhost:3001/computers`)
     console.log(responseComputer)
+
+    let computerImage = document.querySelector('#computerImage')
+    computerImage.innerText = responseComputer.data[0].img_path
 }
 getData()
 
