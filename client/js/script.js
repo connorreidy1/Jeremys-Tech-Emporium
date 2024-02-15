@@ -22,3 +22,9 @@ getData()
 //     computerLogo.src = computerData[0].image_path
    
 // })
+
+
+// playButton.addEventListener('click', () => {
+//     // Move to Computers
+//     window.location.href = "computers.html"
+// })
